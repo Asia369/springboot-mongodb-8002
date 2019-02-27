@@ -1,0 +1,8 @@
+server:
+  port: 8002
+  
+spring:
+  data:
+    mongodb:
+      uri: mongodb://driadmin:123456@172.28.124.10:27017/dridb
+      authentication-database: admin
